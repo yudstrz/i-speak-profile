@@ -176,14 +176,18 @@ const HomePage = ({ navigate }) => {
             </h2>
             <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-4"></div>
             <p className="text-lg text-gray-600">
-              Mahasiswa dan alumni Sistem Informasi ITENAS yang berdedikasi
+              Dosen, Mahasiswa, dan alumni Sistem Informasi ITENAS yang berdedikasi
             </p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
             {[
-              { name: "Ahmad Fauzi", role: "Project Lead", img: "AF" },
-              { name: "Siti Nurhaliza", role: "Frontend Developer", img: "SN" },
-              { name: "Budi Santoso", role: "AI/ML Engineer", img: "BS" },
+        const teamMembers = [
+            { name: "Nur Fitrianti Fahrudin., S.Kom., M.T.", role: "Project Lead & IT/Data Coordinator", department: "Sistem Informasi - ITENAS", image: "NF" },
+            { name: "Corry Caromawati, S.S., M.A., Ph.D.", role: "Research & Academic Advisor", department: "Sistem Informasi - ITENAS", image: "CC" },
+            { name: "Sofia Umaroh, S.Pd., M.T.", role: "Research & Academic Advisor", department: "Sistem Informasi - ITENAS", image: "SU" },
+            { name: "Wahyudi", role: "AI/ML Engineer, Web Developer", department: "Sistem Informasi - ITENAS", image: "WA" },
+            { name: "Rizal Ahmad Saepulloh", role: "AI/ML Engineer, Web Developer", department: "Sistem Informasi - ITENAS", image: "RA" },
+            { name: "Azhar", role: "AI/ML Engineer, Web Developer", department: "Sistem Informasi - ITENAS", image: "AZ" },
             ].map((member, index) => (
               <div key={index} className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all border border-gray-100">
                 <div className="bg-gradient-to-br from-blue-600 to-purple-600 h-32 flex items-center justify-center">
