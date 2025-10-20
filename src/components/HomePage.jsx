@@ -1,8 +1,8 @@
 import { ExternalLink, ArrowRight, Check } from 'lucide-react';
 
 const HomePage = ({ navigate }) => {
-  const dataCollectionLink = "https://forms.gle/your-data-collection-form";
-  const assessmentLink = "https://assessment.ispeak.id";
+  const dataCollectionLink = "https://ispeak-data-collection.netlify.app/";
+  const assessmentLink = "https://i-speaks.vercel.app/";
 
   return (
     <>
