@@ -3,7 +3,7 @@ const TeamSection = () => {
     { name: "Nur Fitrianti Fahrudin., S.Kom., M.T.", role: "Project Lead & IT/Data Coordinator", department: "Sistem Informasi - ITENAS", image: "NF" },
     { name: "Corry Caromawati, S.S., M.A., Ph.D.", role: "Research & Academic Advisor", department: "Sistem Informasi - ITENAS", image: "CC" },
     { name: "Sofia Umaroh, S.Pd., M.T.", role: "Research & Academic Advisor", department: "Sistem Informasi - ITENAS", image: "SU" },
-    { name: "Wahyudi", role: "AI/ML Engineer, Web Developer", department: "Sistem Informasi - ITENAS", image: "WA" },
+    { name: "Wahyudi, S.Kom.", role: "AI/ML Engineer, Web Developer", department: "Sistem Informasi - ITENAS", image: "WA" },
     { name: "Rizal Ahmad Saepulloh", role: "AI/ML Engineer, Web Developer", department: "Sistem Informasi - ITENAS", image: "RA" },
     { name: "Azhar", role: "AI/ML Engineer, Web Developer", department: "Sistem Informasi - ITENAS", image: "AZ" },
   ];
