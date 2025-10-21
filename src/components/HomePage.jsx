@@ -1,7 +1,7 @@
 import { ExternalLink, ArrowRight, Check } from 'lucide-react';
 
 const HomePage = ({ navigate }) => {
-  const dataCollectionLink = "https://ispeak-data-collection.netlify.app/";
+  const dataCollectionLink = "https://i-speak-collection-audio.vercel.app";
   const assessmentLink = "https://i-speaks.vercel.app/";
 
   return (
