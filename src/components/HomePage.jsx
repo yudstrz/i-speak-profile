@@ -7,7 +7,7 @@ const HomePage = ({ navigate }) => {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-600 via-purple-600 to-pink-500 text-white overflow-hidden">
+      <section className="relative bg-gradient-to-br from-blue-600 via-orange-500 to-red-500 text-white overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-10"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
           <div className="text-center">
@@ -50,7 +50,7 @@ const HomePage = ({ navigate }) => {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Fitur Utama Platform
             </h2>
-            <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-4"></div>
+            <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-orange-600 mx-auto mb-4"></div>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Dua fitur utama yang dirancang untuk membantu pengumpulan data dan penilaian kemampuan speaking
             </p>
@@ -90,9 +90,9 @@ const HomePage = ({ navigate }) => {
                 <ArrowRight size={18} />
               </a>
             </div>
-            <div className="group bg-white border-2 border-gray-100 p-8 rounded-2xl hover:border-purple-200 hover:shadow-xl transition-all">
+            <div className="group bg-white border-2 border-gray-100 p-8 rounded-2xl hover:border-orange-200 hover:shadow-xl transition-all">
               <div className="flex items-center mb-6">
-                <div className="w-14 h-14 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center mr-4 shadow-lg">
+                <div className="w-14 h-14 bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl flex items-center justify-center mr-4 shadow-lg">
                   <span className="text-white text-2xl">🤖</span>
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900">Assessment</h3>
@@ -102,15 +102,15 @@ const HomePage = ({ navigate }) => {
               </p>
               <ul className="space-y-3 mb-6">
                 <li className="flex items-start text-gray-700">
-                  <Check size={20} className="text-purple-600 mr-2 mt-0.5 flex-shrink-0" />
+                  <Check size={20} className="text-orange-600 mr-2 mt-0.5 flex-shrink-0" />
                   <span>Penilaian otomatis berbasis AI</span>
                 </li>
                 <li className="flex items-start text-gray-700">
-                  <Check size={20} className="text-purple-600 mr-2 mt-0.5 flex-shrink-0" />
+                  <Check size={20} className="text-orange-600 mr-2 mt-0.5 flex-shrink-0" />
                   <span>Evaluasi 7 aspek kemampuan speaking</span>
                 </li>
                 <li className="flex items-start text-gray-700">
-                  <Check size={20} className="text-purple-600 mr-2 mt-0.5 flex-shrink-0" />
+                  <Check size={20} className="text-orange-600 mr-2 mt-0.5 flex-shrink-0" />
                   <span>Feedback detail dan terukur</span>
                 </li>
               </ul>
@@ -118,7 +118,7 @@ const HomePage = ({ navigate }) => {
                 href={assessmentLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition-colors font-semibold"
+                className="inline-flex items-center gap-2 bg-orange-600 text-white px-6 py-3 rounded-lg hover:bg-orange-700 transition-colors font-semibold"
               >
                 Coba Assessment
                 <ArrowRight size={18} />
@@ -143,7 +143,7 @@ const HomePage = ({ navigate }) => {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               7 Aspek Penilaian
             </h2>
-            <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-4"></div>
+            <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-orange-600 mx-auto mb-4"></div>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Sistem penilaian komprehensif untuk evaluasi kemampuan speaking secara menyeluruh
             </p>
@@ -174,7 +174,7 @@ const HomePage = ({ navigate }) => {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Tim Pengembang
             </h2>
-            <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-4"></div>
+            <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-orange-600 mx-auto mb-4"></div>
             <p className="text-lg text-gray-600">
               Mahasiswa dan alumni Sistem Informasi ITENAS yang berdedikasi
             </p>
@@ -186,7 +186,7 @@ const HomePage = ({ navigate }) => {
               { name: "Budi Santoso", role: "AI/ML Engineer", img: "BS" },
             ].map((member, index) => (
               <div key={index} className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all border border-gray-100">
-                <div className="bg-gradient-to-br from-blue-600 to-purple-600 h-32 flex items-center justify-center">
+                <div className="bg-gradient-to-br from-blue-600 to-orange-600 h-32 flex items-center justify-center">
                   <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-lg">
                     <span className="text-2xl font-bold text-gray-700">{member.img}</span>
                   </div>
@@ -210,7 +210,7 @@ const HomePage = ({ navigate }) => {
         </div>
       </section>
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-blue-600 via-purple-600 to-pink-500 text-white relative overflow-hidden">
+      <section className="py-20 bg-gradient-to-br from-blue-600 via-orange-500 to-red-500 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-10"></div>
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">

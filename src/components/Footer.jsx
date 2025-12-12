@@ -8,7 +8,7 @@ const Footer = ({ navigate }) => {
           {/* Logo & Brand */}
           <div>
             <div className="flex items-center space-x-3 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+              <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-orange-600 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-lg">IS</span>
               </div>
               <h3 className="text-2xl font-bold">I Speak</h3>

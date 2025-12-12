@@ -6,13 +6,13 @@ const ContactSection = () => {
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Hubungi Kami</h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-6"></div>
+          <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-orange-600 mx-auto mb-6"></div>
           <p className="text-xl text-gray-600">
             Ada pertanyaan atau ingin berkolaborasi? Jangan ragu untuk menghubungi kami!
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-8 mb-12">
-          <div className="bg-gradient-to-br from-blue-50 to-purple-50 p-8 rounded-xl border border-gray-100">
+          <div className="bg-gradient-to-br from-blue-50 to-orange-50 p-8 rounded-xl border border-gray-100">
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Informasi Kontak</h3>
             <div className="space-y-5">
               <div className="flex items-start">
@@ -44,7 +44,7 @@ const ContactSection = () => {
               </div>
             </div>
           </div>
-          <div className="bg-gradient-to-br from-purple-50 to-pink-50 p-8 rounded-xl border border-gray-100">
+          <div className="bg-gradient-to-br from-orange-50 to-red-50 p-8 rounded-xl border border-gray-100">
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Lokasi</h3>
             <div className="mb-6">
               <p className="text-gray-900 font-bold text-lg mb-2">
@@ -62,7 +62,7 @@ const ContactSection = () => {
             </div>
           </div>
         </div>
-        <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-10 text-center text-white shadow-xl">
+        <div className="bg-gradient-to-r from-blue-600 to-orange-600 rounded-2xl p-10 text-center text-white shadow-xl">
           <h3 className="text-2xl font-bold mb-4">Ingin Berkontribusi?</h3>
           <p className="text-lg mb-8 text-white text-opacity-95">
             Kami selalu terbuka untuk kolaborasi dan kontribusi dari komunitas. Jika Anda tertarik untuk berkontribusi dalam pengembangan I Speak, silakan hubungi kami!

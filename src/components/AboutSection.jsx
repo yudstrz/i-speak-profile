@@ -6,13 +6,13 @@ const AboutSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Tentang I Speak</h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-6"></div>
+          <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-orange-600 mx-auto mb-6"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Platform inovatif yang menggabungkan teknologi AI dan expertise pendidikan untuk meningkatkan kemampuan speaking
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-12 mb-16">
-          <div className="bg-gradient-to-br from-blue-50 to-purple-50 p-8 rounded-2xl">
+          <div className="bg-gradient-to-br from-blue-50 to-orange-50 p-8 rounded-2xl">
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Visi Kami</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
               Menjadi platform terdepan dalam penilaian kemampuan speaking berbasis AI di Indonesia, membantu ribuan pelajar dan profesional meningkatkan kemampuan komunikasi mereka.
@@ -21,7 +21,7 @@ const AboutSection = () => {
               Kami percaya bahwa dengan teknologi yang tepat, setiap orang dapat mengakses penilaian speaking berkualitas tinggi tanpa batasan geografis atau biaya yang mahal.
             </p>
           </div>
-          <div className="bg-gradient-to-br from-purple-50 to-pink-50 p-8 rounded-2xl">
+          <div className="bg-gradient-to-br from-orange-50 to-red-50 p-8 rounded-2xl">
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Misi Kami</h3>
             <ul className="space-y-4">
               <li className="flex items-start">
@@ -68,7 +68,7 @@ const AboutSection = () => {
             ))}
           </div>
         </div>
-        <div className="text-center bg-gradient-to-r from-blue-600 to-purple-600 text-white p-10 rounded-2xl">
+        <div className="text-center bg-gradient-to-r from-blue-600 to-orange-600 text-white p-10 rounded-2xl">
           <h3 className="text-2xl font-bold mb-2">Dikembangkan oleh</h3>
           <p className="text-xl mb-2">Jurusan Sistem Informasi</p>
           <p className="text-lg">Institut Teknologi Nasional (ITENAS) Bandung</p>
