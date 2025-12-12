@@ -1,8 +1,8 @@
 import { ExternalLink, ArrowRight, Check } from 'lucide-react';
 
 const HomePage = ({ navigate }) => {
-  const dataCollectionLink = "https://forms.gle/your-data-collection-form";
-  const assessmentLink = "https://assessment.ispeak.id";
+  const dataCollectionLink = "https://i-speak-collection-audio.vercel.app";
+  const assessmentLink = "https://i-speaks.vercel.app/";
 
   return (
     <>
@@ -150,13 +150,13 @@ const HomePage = ({ navigate }) => {
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {[
-              { title: "Pronunciation", icon: "🗣️", desc: "Kejelasan pengucapan" },
-              { title: "Fluency", icon: "⚡", desc: "Kelancaran berbicara" },
-              { title: "Grammar", icon: "📝", desc: "Ketepatan tata bahasa" },
-              { title: "Vocabulary", icon: "📚", desc: "Kekayaan kosakata" },
-              { title: "Comprehension", icon: "🧠", desc: "Pemahaman konteks" },
-              { title: "Coherence", icon: "🔗", desc: "Keterkaitan ide" },
-              { title: "Task Achievement", icon: "🎯", desc: "Pencapaian tugas" },
+              { title: "Fluency", icon: "⚡", desc: "Mengukur kelancaran berbicara, termasuk durasi, kecepatan bicara, panjang ujaran, dan jeda terisi." },
+              { title: "Pronunciation", icon: "🗣️", desc: "Mengukur kualitas pengucapan menggunakan MFCC, pitch range, dan articulation rate." },
+              { title: "Prosody/Acoustic", icon: "🎵", desc: "Karakteristik akustik suara, seperti pitch rata-rata, energi sinyal, jumlah prominences, dan variasinya." },
+              { title: "Coherence & Cohesion", icon: "🔗", desc: "Menilai kesatuan makna antar kalimat dan penggunaan penanda wacana." },
+              { title: "Topic Relevance", icon: "📌", desc: "Menilai kesesuaian topik ucapan dengan referensi melalui kemiripan semantik." },
+              { title: "Complexity", icon: "📚", desc: "Mengukur kompleksitas bahasa: jumlah dan variasi kata, CEFR level, idiom, n-gram, sinonim, dan struktur sintaksis." },
+              { title: "Accuracy", icon: "📝", desc: "Menilai ketepatan bahasa, termasuk jumlah kesalahan grammar." },
             ].map((item, index) => (
               <div key={index} className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-all text-center border border-gray-100">
                 <div className="text-4xl mb-3">{item.icon}</div>
@@ -167,6 +167,7 @@ const HomePage = ({ navigate }) => {
           </div>
         </div>
       </section>
+<<<<<<< HEAD
       {/* Team Section Preview */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -209,6 +210,8 @@ const HomePage = ({ navigate }) => {
           </div>
         </div>
       </section>
+=======
+>>>>>>> eef75c43bb74a079e59e6ab8923ebda32057a8f1
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-br from-blue-600 via-orange-500 to-red-500 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-10"></div>

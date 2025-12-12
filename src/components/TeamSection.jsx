@@ -1,11 +1,11 @@
 const TeamSection = () => {
   const teamMembers = [
-    { name: "Ahmad Fauzi", role: "Project Lead & Backend Developer", department: "Sistem Informasi - ITENAS", image: "AF" },
-    { name: "Siti Nurhaliza", role: "Frontend Developer", department: "Sistem Informasi - ITENAS", image: "SN" },
-    { name: "Budi Santoso", role: "AI/ML Engineer", department: "Sistem Informasi - ITENAS", image: "BS" },
-    { name: "Dewi Lestari", role: "UI/UX Designer", department: "Sistem Informasi - ITENAS", image: "DL" },
-    { name: "Eko Prasetyo", role: "Data Analyst", department: "Sistem Informasi - ITENAS", image: "EP" },
-    { name: "Fitri Handayani", role: "Quality Assurance", department: "Sistem Informasi - ITENAS", image: "FH" },
+    { name: "Nur Fitrianti Fahrudin., S.Kom., M.T.", role: "Project Lead & IT/Data Coordinator", department: "Sistem Informasi - ITENAS", image: "NF" },
+    { name: "Corry Caromawati, S.S., M.A., Ph.D.", role: "Research & Academic Advisor", department: "Sistem Informasi - ITENAS", image: "CC" },
+    { name: "Sofia Umaroh, S.Pd., M.T.", role: "Research & Academic Advisor", department: "Sistem Informasi - ITENAS", image: "SU" },
+    { name: "Wahyudi, S.Kom.", role: "AI/ML Engineer, Web Developer", department: "Sistem Informasi - ITENAS", image: "WA" },
+    { name: "Rizal Ahmad Saepulloh", role: "AI/ML Engineer, Web Developer", department: "Sistem Informasi - ITENAS", image: "RA" },
+    { name: "Azhar", role: "AI/ML Engineer, Web Developer", department: "Sistem Informasi - ITENAS", image: "AZ" },
   ];
 
   return (
@@ -15,7 +15,7 @@ const TeamSection = () => {
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Tim Kami</h2>
           <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-orange-600 mx-auto mb-6"></div>
           <p className="text-xl text-gray-600">
-            Mahasiswa dan alumni Sistem Informasi ITENAS yang berdedikasi
+            Dosen, Mahasiswa, dan alumni Sistem Informasi ITENAS yang berdedikasi
           </p>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
